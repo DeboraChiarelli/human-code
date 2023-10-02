@@ -12,17 +12,17 @@
   - carne
   - verdura
 - FINCHè non ho il portafogli, il coupon da 20 euro e la busta della spesa li cerco
--SE Dopo aver cercato non ho uno di questi tre pre-requisiti
+  -SE Dopo aver cercato non ho uno di questi tre pre-requisiti 
   -ALLORA non esco e rimando a domani la spesa
 - esco di casa
 - mi dirigo al supermercato:
- - SE ho la macchina
-   - guido
- - ALTRIMENTI
-   - vado a piedi
- - SE il supermercato vicino casa è aperto
+  - SE ho la macchina
+    - guido
+  - ALTRIMENTI
+    - vado a piedi
+  - SE il supermercato vicino casa è aperto
    - entro
- - ALTRIMENTI
+  - ALTRIMENTI
    - ne cerco un altro
 - entro nel supermercato:
   - prendo un carrello
@@ -32,10 +32,10 @@
     - ALTRIMENTI
       - li cancello dalla lista stessa
   - faccio un check:
-   - SE ho abbastanza tempo
-     - compro gli snack extra
-   - ALTRIMENTI
-     - mi dirigo verso le casse
+    - SE ho abbastanza tempo
+      - compro gli snack extra
+    - ALTRIMENTI
+      - mi dirigo verso le casse
 - pagamento:
   - mi dirigo alle casse e mi metto in fila
   - aspetto il mio turno
